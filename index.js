@@ -26,9 +26,9 @@ export const getIntersection = (values1, values2) => {
 
 export const findLargestElement = (nestedArrs) => {
     if (nestedArrs.length === 0) {
-      return []; // Возвращаем пустой массив, если входной массив пустой
+      return []; 
     } else {
-      let flattenedArray = nestedArrs.flat(Infinity); // Выравниваем массив, чтобы обработать все вложенные уровни
-      return Math.max(...flattenedArray); // Возвращаем наибольший элемент в массиве
+      let flattenedArray = nestedArrs.flat(Infinity); 
+      return Math.max(...flattenedArray); 
     }
 }
